@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rosybrown;
+    font-family: sans-serif;
+}
+html, body{
+    height: 100%;
+}
+
+
+.container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 100%;
+    background: #f8f8f8;
+}
+/*:root{
+    background: linear-gradient(to right, #e2336b, #fcac46);
+}
+
+.sidebar-left{
+/*background: pink;*/
+position: fixed;
+width: 300px;
+/*height: 100vh;
+z-index:2*/
+border-right: 1px solid #ccc;
+}
+
+.sidebar-left .items .icon{
+    font-size: 1.5rem;
+    margin-right: 1em;
+    color: #8a3ab9  ;
+
+}
+.sidebar-left .items{
+    background: rgb(245, 245, 245);
+    margin-left: 35px;
+    height: 100%;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.4rem;
+}
+.profile-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #e2336b;
+}
+.profile-img img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: center;
+}
+.name{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0 0.4rem;
+}
+.name h1{
+    font-size: 1.1rem;
+}
+.name img{
+    margin-left: 4px;
+    width: 20px;
+    object-fit: contain;
+}
+ .profile-img span{
+     font-size: 0.938rem;
+     font-weight: 400;
+ }
+ .about{
+     display: flex;
+     justify-content: space-between;
+     margin-top: 1rem;
+ }
+ .box{
+     text-align: center;
+ }
+ .box h3{
+     font-size: 1rem;
+     font-weight: 500;
+ }
+ .box span{
+     font-size:0.938rem;
+     font-weight: 400;
+ }
+.menu{
+    width: 100%;
+    font-size: 1rem;
+    color: #000;
+    display: flex;
+    align-items: center;
+    line-height: 40px;
+    justify-content: space-between;
+}
+.menu a:hover .menu .active{
+
+}
+
+}
+
+main{
+background: springgreen;
+
+}
+main header{
+    display: flex;
+    padding: 12px;
+    position: absolute;
+    width: calc(100%-300px);
+    top: 0;
+    left: 300px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+}
+main header .home{
+    font-weight: 800;
+}
+main header .btn-addphoto{
+    align-items: flex;
+    height: 40px;
+    margin: auto;
+    display: flex;
+}
+main header .btn-adphoto button{
+    display: flex;
+    height: 100%;
+    width: 160%;
+}
+
+
